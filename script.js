@@ -24,12 +24,15 @@ async function loopWithDelay1(element, index) {
   element.innerHTML = formatNumber(j);
 }
 
+let i = 0;
+
 const observer = new IntersectionObserver(
   (entries) => {
-    entries.forEach((entry, index) => {
+    entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        loopWithDelay1(entry.target, index);
+        loopWithDelay1(entry.target, i);
         observer.unobserve(entry.target);
+        i++;
       }
     });
   },
