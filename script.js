@@ -8,7 +8,7 @@ count_tags.forEach((numbers) => {
 });
 
 function formatNumber(num) {
-  return new Intl.NumberFormat().format(num);
+  return new Intl.NumberFormat("en-US").format(num);
 }
 
 function delay(ms) {
