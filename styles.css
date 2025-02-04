@@ -7,7 +7,7 @@ secondary-font: "Source Code Pro", sans-serif; */
 
 /* -----------Font Sizes----------- */
 
-/* -----------Colour Schemes----------- */
+/* -----------Color Schemes----------- */
 
 :root {
   --clr-dark: #030712;
@@ -25,8 +25,8 @@ secondary-font: "Source Code Pro", sans-serif; */
   --shadow-xl: 0 19px 38px rgba(15, 23, 42, 0.3),
     0 15px 12px rgba(15, 23, 42, 0.22);
 
-    --font-primary: "Inter", sans-serif;
-    --secondary-font: "Source Code Pro", sans-serif;
+  --font-primary: "Inter", sans-serif;
+  --secondary-font: "Source Code Pro", sans-serif;
 
   --size-xxs: 0.5rem;
   --size-xss: 0.65rem;
@@ -115,7 +115,7 @@ h3 {
   line-height: 1.6rem;
 }
 
-.title-descriptn {
+.title-description {
   font-family: var(--secondary-font);
   font-size: var(--size-lg);
   color: var(--clr-muted);
@@ -394,7 +394,7 @@ nav {
   text-align: right;
 }
 
-#about .title-descriptn {
+#about .title-description {
   width: 65ch;
 }
 
@@ -402,7 +402,7 @@ nav {
   width: 62ch;
 }
 
-#about .title-descriptn a {
+#about .title-description a {
   text-decoration: underline;
   color: var(--clr-slate50);
 }
@@ -431,7 +431,7 @@ nav {
   align-items: end;
 }
 
-.stat .title-descriptn {
+.stat .title-description {
   margin: 0px;
   font-size: var(--size-sm);
   line-height: 1rem;
@@ -466,7 +466,7 @@ nav {
   height: 2.3rem;
 }
 
-#lns-title .title-descriptn {
+#lns-title .title-description {
   text-align: center;
   width: 60ch;
 }
